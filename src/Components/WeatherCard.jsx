@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import {Triangle} from 'react-loader-spinner'
 import axios from 'axios';
-
+    
 export  default function WeatherCard(){
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
